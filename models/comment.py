@@ -1,7 +1,6 @@
-from flask import Flask
-from marshmallow import Schema, fields, pre_load, validate
-from flask_marshmallow import Marshmallow
-from models import db,ma
+from marshmallow import fields, validate
+
+from models import db, ma
 
 
 class Comment(db.Model):
@@ -15,7 +14,6 @@ class Comment(db.Model):
     def __init__(self, comment, category_id):
         self.comment = comment
         self.category_id = category_id
-
 
 
 class CommentSchema(ma.Schema):

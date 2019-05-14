@@ -1,8 +1,6 @@
-from flask import Flask
-from marshmallow import Schema, fields, pre_load, validate
-from flask_marshmallow import Marshmallow
-from flask_sqlalchemy import SQLAlchemy
-from models import db,ma
+from marshmallow import fields
+
+from models import db, ma
 
 
 class Category(db.Model):
@@ -17,4 +15,3 @@ class Category(db.Model):
 class CategorySchema(ma.Schema):
     id = fields.Integer()
     name = fields.String(required=True)
-

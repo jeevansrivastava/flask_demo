@@ -5,8 +5,9 @@
     - Ubuntu ~ `$ export FLASK_APP=run.py`
     - Windows ~ `C:\path\to\app>set FLASK_APP=run.py`
   - Migration 
-    - Init migration `py migration db init`
-    - migtate `py migration db migrate`
+    - Init migration `py migrate.py db init`
+    - migtate `py migrate.py db migrate`
+    - upgrade `py migrate.py db upgrade`
     
   - Run Application `flask run`
   

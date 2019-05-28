@@ -1,8 +1,7 @@
 from flask import request
 from flask_restful import Resource
-from module.lead.lead_model import db, Lead, LeadSchema
+from module.lead.model import db, Lead, LeadSchema
 from utility.Response import Response
-
 lead_schema = LeadSchema(many=True)
 lead_schema = LeadSchema()
 

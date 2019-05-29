@@ -1,5 +1,4 @@
 alembic==1.0.10
-aniso8601==6.0.0
 Click==7.0
 Flask==1.0.2
 flask-marshmallow==0.10.1

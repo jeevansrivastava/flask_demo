@@ -22,4 +22,4 @@ Werkzeug==0.15.2
 aniso8601==6.0.0
 Flask-JWT-Extended==3.18.2
 passlib==1.7.1
-PyJWT==1.7.1
+PyJWT==2.4.0
